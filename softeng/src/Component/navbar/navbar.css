@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    font-size: 24px;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+   
+ 
+}
+
+
+
+
+.nav {
+
+    background: none;
+    margin: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+  
+
+}
+
+
+
+
+nav .logohere h1{
+    
+ text-decoration: none;
+}
+
+
+.noUnderline {
+    text-decoration: none;
+    color: #000;
+ 
+  }
+  
+

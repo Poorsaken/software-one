@@ -1,0 +1,39 @@
+
+.parent{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90vh;
+   
+}
+.kind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    font-family: poppins;
+}
+
+.cards{
+    transform: translateY(30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cards div{
+  
+    margin-right: 50px;
+}
+
+.cards h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: capitalize;
+    
+}

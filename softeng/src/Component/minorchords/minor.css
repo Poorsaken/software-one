@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.header h1{
+
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.chord-title h1{
+    
+    font-weight: 500;
+}
+
+
+.chord-title, .chord-category{
+
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    font-family: 'Poppins';
+
+}
+
+.minor-link{
+
+height: 60px;
+width: 245px;
+
+align-items: center;
+justify-content: center;
+display: flex;
+text-decoration: none;
+background-color: #654BFF;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 15px;
+color: rgb(255, 255, 255);
+margin: 2%;
+border-radius: 15px;
+
+}
+
+
+
+ .major , .power ,.sharp {
+
+ height: 60px;
+width: 245px;
+border-radius: 15px;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 15px;
+align-items: center;
+justify-content: center;
+display: flex;
+background-color: #ffffff;
+color: black;
+margin: 2%;
+
+}
+
+
+.chord-gallery-parent {
+
+    display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding: 50px;
+
+}
+
+
+.chord{
+
+    text-align: center;
+}
+
+.descrip-chord{
+
+ 
+    font-size: 35px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+
+.button-C {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5%;
+    
+}
+
+.button-C, p1{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+}

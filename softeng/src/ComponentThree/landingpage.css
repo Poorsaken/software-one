@@ -1,0 +1,63 @@
+.title-tech{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+.title-tech h1{
+
+    text-transform: uppercase;
+}
+
+.learn-tech{
+
+    margin: 2%;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.tech-desc p{
+
+
+    margin: 2%;
+}
+
+.three-tech{
+
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.palm , .hammeron , .vibrato{
+
+    width: 450px;
+    height: 450px;
+    cursor: pointer;
+   margin: 2%;
+}
+
+
+.image-div {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.image-div img {
+
+    border-radius: 1rem;
+    width: 400px;
+    height: 400px;
+}
+
+.texxttt{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
