@@ -29,6 +29,7 @@
     display: flex;
     align-items:center ;
     justify-content: center;
+    margin-bottom: 5%;
 }
 .palm , .hammeron , .vibrato{
 
@@ -37,6 +38,7 @@
     cursor: pointer;
    margin: 2%;
 }
+
 
 
 .image-div {
@@ -51,7 +53,31 @@
     border-radius: 1rem;
     width: 400px;
     height: 400px;
+
 }
+
+.image-div img {
+    width: 400px; /* Set your normal width */
+    height: 400px; /* Set your normal height */
+    transition: all 0.3s ease-in-out;
+}
+
+.image-div img:hover {
+    width: 415px;
+    height: 415px;
+     border: 1px ;
+ 
+  box-shadow: 5px 10px #654BFF;
+    transform: scale(1);
+}
+
+.image-div img:active {
+    width: 300px; /* Set the normal width for the active state */
+    height: 300px; /* Set the normal height for the active state */
+    transform: scale(1);
+   
+}
+
 
 .texxttt{
 

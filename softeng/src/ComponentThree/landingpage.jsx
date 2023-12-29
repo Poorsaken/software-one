@@ -5,6 +5,7 @@ import Guitars from "../Component/guitars/guitars";
 import palm from "../Component/images/palm.jpg";
 import hammer from '../Component/images/hammer-on-guitar.jpg';
 import vibrato from "../Component/images/vibrato.jpg";
+import { Link } from "react-router-dom";
 
 
 
@@ -37,7 +38,7 @@ import vibrato from "../Component/images/vibrato.jpg";
                             <div className="three-tech">
                                 <div className="palm">
                                     <div className="image-div">
-                                    <img src={palm}/>
+                                   <Link to="/palmmute" className="noUnderline"> <img src={palm}/></Link>
 
                                     </div>
                                     

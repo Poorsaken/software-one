@@ -16,6 +16,7 @@ import Majorchords from './Component/majorchords/major';
 import Powerchords from './Component/powerchords/power';
 import Sharpchords from './Component/sharpchords/sharp';
 import Footer from './Component/footer/footer';
+import Palmmute from './ComponentThree/palmmute/palmmute'
 
 
 
@@ -38,6 +39,9 @@ function App() {
         <Route path="/major" element={<Majorchords />} />
         <Route path="/power" element={<Powerchords />} />
         <Route path="/sharp" element={<Sharpchords />} />
+        <Route path="/palmmute" element={<Palmmute />} />
+        
+        
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       

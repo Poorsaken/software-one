@@ -1,0 +1,64 @@
+.palm-title {
+   margin: 2%;
+}
+
+.palm-desc{
+
+    margin: 2%;
+}
+
+.palm-two{
+
+    display: flex;
+    align-items: center;
+}
+
+.palm-hand img {
+
+    width: 130%;
+}
+
+
+.palm-three {
+    display: flex;
+    align-items: center;
+
+    margin-top: 5%;
+}
+
+.three-image img {
+
+    width: 130%;
+}
+
+.palm-handtwo{
+    width: 50%;
+    margin-top: 5%;
+}
+
+.palm-handtwo img{
+
+    margin: 2%;
+    width: 80%;
+}
+
+.closing {
+
+    margin: 2%;
+}
+
+.video iframe{
+
+    margin: 2%;
+    width: 1000px;
+    height: 500px;
+    
+
+}
+
+.video{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
