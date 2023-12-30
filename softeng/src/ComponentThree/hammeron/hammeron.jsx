@@ -18,6 +18,18 @@ class Hammeron extends React.Component {
             </div>
           </div>
 
+
+            <div className="hammeron-title">
+                <h1> What is a hammer on?</h1>
+                
+            </div>
+
+            <div className="hammer-desc">
+                <p>A hammer-on is a guitar technique where you play a note by "hammering" your fretting hand's finger onto the fretboard without picking the string again. <br/>It allows you to produce a smooth and connected sound between two or more notes. Here's a step-by-step guide on how to perform a hammer-on</p>
+            </div>
+
+         
+
           <div className="first-parent">
             <div className="left-first">
               <div className="title-ham1">

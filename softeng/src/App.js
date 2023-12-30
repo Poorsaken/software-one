@@ -18,6 +18,7 @@ import Sharpchords from './Component/sharpchords/sharp';
 import Footer from './Component/footer/footer';
 import Palmmute from './ComponentThree/palmmute/palmmute'
 import Hammeron from './ComponentThree/hammeron/hammeron';
+import Vibrato from './ComponentThree/vibrato/vibrato';
 
 
 
@@ -42,6 +43,7 @@ function App() {
         <Route path="/sharp" element={<Sharpchords />} />
         <Route path="/palmmute" element={<Palmmute />} />
         <Route path="/hammeron" element={<Hammeron />} />
+        <Route path="/vibrato" element={<Vibrato />} />
         
         
         <Route path="*" element={<Navigate to="/" />} />

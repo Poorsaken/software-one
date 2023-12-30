@@ -62,7 +62,7 @@ import { Link } from "react-router-dom";
                                 </div>
                                 <div className="vibrato">
                                 <div className="image-div">
-                                    <img src={vibrato}/>
+                                    <Link to= "/vibrato" className="noUnderline"><img src={vibrato}/> </Link>
 
                                     </div>
                                     
