@@ -49,7 +49,7 @@ import { Link } from "react-router-dom";
                                 <div className="hammeron">
 
                                 <div className="image-div">
-                                    <img src={hammer}/>
+                                    <Link to = "/hammeron" className="noUnderline"><img src={hammer}/> </Link>
 
                                     </div>
                                     

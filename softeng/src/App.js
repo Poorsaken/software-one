@@ -17,6 +17,7 @@ import Powerchords from './Component/powerchords/power';
 import Sharpchords from './Component/sharpchords/sharp';
 import Footer from './Component/footer/footer';
 import Palmmute from './ComponentThree/palmmute/palmmute'
+import Hammeron from './ComponentThree/hammeron/hammeron';
 
 
 
@@ -40,6 +41,7 @@ function App() {
         <Route path="/power" element={<Powerchords />} />
         <Route path="/sharp" element={<Sharpchords />} />
         <Route path="/palmmute" element={<Palmmute />} />
+        <Route path="/hammeron" element={<Hammeron />} />
         
         
         <Route path="*" element={<Navigate to="/" />} />

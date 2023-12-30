@@ -1,0 +1,75 @@
+.hero-image {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(5, 5, 5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../palmmute/image/hammeron.jpg");
+}
+
+.hammer-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hammer-title h1 {
+  font-size: 4vw;
+  color: #ffffff;
+  padding: 10%;
+  font-weight: 500;
+}
+
+.title-ham1 {
+  margin: 2%;
+}
+
+.left-first {
+  width: 50%;
+}
+
+.left-first2 {
+  width: 50%;
+}
+
+.right-second2 {
+  width: 50%;
+}
+
+.right-second2 img {
+  width: 100%;
+}
+
+.right-second img {
+  width: 150%;
+}
+
+.first-parent {
+  margin: 5%;
+  align-items: center;
+  display: flex;
+}
+
+.title-two {
+  margin-left: 20%;
+}
+
+
+.prac-tabs{
+    margin: 5%;
+}
+.prac-tabimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prac-tabimage img {
+
+    width: 50%;
+}
+
+.prac-tabvid iframe{
+
+    width: 100%;
+    height: 800px;
+}
