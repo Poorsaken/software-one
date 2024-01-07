@@ -22,10 +22,12 @@ import Vibrato from './ComponentThree/vibrato/vibrato';
 
 
 
+
 function App() {
   return (
     <>
     <div>
+
     <Router> 
       <Routes>
        {/* <Route path="/" element={<Subcontent />} />  */}
@@ -53,6 +55,8 @@ function App() {
 
 
    <Footer/>
+
+
     
     </div>
   

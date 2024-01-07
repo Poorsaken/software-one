@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./major.css"
 import { Link } from "react-router-dom";
 import Navbar from "../navbar/navbar";
@@ -9,9 +9,50 @@ import Fchord from '../images/F.png';
 import Gchord from '../images/G.png';
 import Achord from '../images/A.png';
 import Bchord from '../images/B.png';
+import React, { useState, useEffect } from "react";
 
+import Csound from '../../buttonfunction/C-Chord.mp3';
+import Dsound from '../../buttonfunction/D-Chord.mp3';
 
 class Major extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+          selectedSound: null,
+          isPlaying: false,
+        };
+
+        this.soundMap = {
+          sound1: Csound,
+          sound2: Dsound,
+          sound3: "path/to/sound3.mp3",
+          sound4: "path/to/sound4.mp3",
+        };
+
+        this.audio = new Audio();
+      }
+    
+      playSound = () => {
+        const { selectedSound, isPlaying } = this.state;
+        if (selectedSound) {
+          if (isPlaying) {
+            this.audio.pause();
+            this.audio.currentTime = 0;
+            this.setState({ isPlaying: false });
+          } else {
+            this.audio.src = selectedSound;
+            this.audio.play();
+            this.setState({ isPlaying: true });
+          }
+        }
+      };
+    
+      handleButtonClick = (sound) => {
+        this.setState({ selectedSound: this.soundMap[sound]}, this.playSound);
+      };
+
+
     render() {
         return(
             <>
@@ -43,14 +84,13 @@ class Major extends React.Component {
                 
                 <div className="descrip-chord">
                     C
-
-                   
                 </div>
 
                 <div className="button-play">
 
-                <button class="button-C">▶</button>
-
+                <button className="button-C "onClick={() => this.handleButtonClick("sound1")}>
+                ▶
+        </button>
                 
                    <p1> Play Chord </p1>
 
@@ -74,7 +114,9 @@ class Major extends React.Component {
 
                 <div className="button-play">
 
-                <button class="button-D">▶</button>
+                <button className="button-C "onClick={() => this.handleButtonClick("sound2")}>
+                ▶
+        </button>
 
                 
                    <p1> Play Chord </p1>
